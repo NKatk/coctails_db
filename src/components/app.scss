@@ -1,0 +1,24 @@
+@import './header/header.scss';
+@import './listCoctailsComp/listCoctails.scss';
+@import './coctailsComp/coctails.scss';
+
+.main{
+  background-color: #fff;
+
+  .sort_content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    .sort{
+      width: 17.3%;
+      min-width: 180px;
+    }
+
+    .content{
+      width: 82.7%;
+      border-left: 1px solid #D0D0D0;
+    }
+  }
+}
+
